@@ -54,6 +54,7 @@ TARG=\
 	date.dis\
 	dbfs.dis\
 	dd.dis\
+	deeptreeecho.dis\
 	dial.dis\
 	diff.dis\
 	disdep.dis\
@@ -227,3 +228,4 @@ cleanname.dis: $MODDIR/names.m
 vacfs.dis:	$MODDIR/vac.m $MODDIR/venti.m
 vacget.dis:	$MODDIR/vac.m $MODDIR/venti.m
 vacput.dis:	$MODDIR/vac.m $MODDIR/venti.m
+deeptreeecho.dis:	$MODDIR/reservoir.m
